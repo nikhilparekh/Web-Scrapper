@@ -66,6 +66,5 @@ class spider:
     @staticmethod
     def updateFiles():
         set_to_file(spider.queue,spider.queue_file)
-        set_to_file(spider.crawled, spider.crawled_file)
-                
+        set_to_file(spider.crawled, spider.crawled_file)      
             
